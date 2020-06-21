@@ -1,0 +1,15 @@
+<form class="inputForm" action="/upload" method="post" enctype="multipart/form-data">
+    <input
+        type="file"
+        name="fileupload"
+        accept="image/jpg, image/png, image/gif, image/jpeg"
+    >
+    <input
+        type="submit"
+        value="Upload"
+    >
+</form>
+
+{{#if error}}
+    <h1>{{error}}</h1>
+{{/if}}

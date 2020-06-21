@@ -1,0 +1,24 @@
+[
+    {
+        "fieldname": "fileupload",
+        "originalname": "aGjOmXZ_700b.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "C:\\Users\\super\\Desktop\\HS_Project\\nodejs_mememaker\\public\\images\\originals\\",
+        "filename": "1592751823227-aGjOmXZ_700b.jpg",
+        "path": "C:\\Users\\super\\Desktop\\HS_Project\\nodejs_mememaker\\public\\images\\originals\\1592751823227-aGjOmXZ_700b.jpg",
+        "size": 39269,
+        "id": 1
+    },
+    {
+        "fieldname": "fileupload",
+        "originalname": "12.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "C:\\Users\\super\\Desktop\\HS_Project\\nodejs_mememaker\\public\\images\\originals\\",
+        "filename": "1592755707292-12.jpg",
+        "path": "C:\\Users\\super\\Desktop\\HS_Project\\nodejs_mememaker\\public\\images\\originals\\1592755707292-12.jpg",
+        "size": 69280,
+        "id": 2
+    }
+]

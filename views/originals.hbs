@@ -1,0 +1,37 @@
+{{#if images}}
+
+{{#each images}}
+
+    <button type="button" data-toggle="modal" data-target="#mymodal{{{ id }}}">
+        <img src="{{../path}}{{filename}}" alt="{{filename}}">
+    </button>
+
+    <div class="modal fade" id="mymodal{{{ id }}}" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="{{../path}}{{filename}}" alt="{{filename}}">
+                    <form action="/addtext" method="post">
+                        <input type="text" name="id" value={{{id}}} hidden>
+                        <input type="text" name="top" placeholder="top">
+                        <input type="text" name="bot" placeholder="bot">
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-primary">Save</button>
+                        </div>
+                    </form>  
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+{{/each}}
+
+{{/if}}

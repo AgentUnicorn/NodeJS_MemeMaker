@@ -1,0 +1,27 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: black;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.inputForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+.footer {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 90%;
+  height: 50px;
+  color: aliceblue;
+}
