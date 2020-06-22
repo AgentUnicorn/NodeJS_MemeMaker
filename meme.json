@@ -1,1 +1,12 @@
-[{"id":"[object Object]1","path":"C:\\Users\\super\\Desktop\\HS_Project\\nodejs_mememaker\\public\\images\\meme\\15927557274191592755707292-12.jpg","filename":"15927557274191592755707292-12.jpg"},{"id":"[object Object]1","path":"C:\\Users\\super\\Desktop\\HS_Project\\nodejs_mememaker\\public\\images\\meme\\15927558375981592751823227-aGjOmXZ_700b.jpg","filename":"15927558375981592751823227-aGjOmXZ_700b.jpg"}]
+[
+    {
+        "id": 1,
+        "path": "15928071350641592807126322-aGjOmXZ_700b.jpg",
+        "filename": "15928071350641592807126322-aGjOmXZ_700b.jpg"
+    },
+    {
+        "id": 2,
+        "path": "15928071452471592807126322-aGjOmXZ_700b.jpg",
+        "filename": "15928071452471592807126322-aGjOmXZ_700b.jpg"
+    }
+]
