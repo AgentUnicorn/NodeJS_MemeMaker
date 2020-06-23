@@ -117,7 +117,7 @@ router.post("/addtext", async(req, res, next)=> {
 
   let newData = {
     id: memes.length > 0 ? memes[memes.length -1].id + 1 : 1,
-    path: newName,
+    path: pathToMemes+newName,
     filename: newName
   }
 
